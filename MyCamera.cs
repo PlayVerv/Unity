@@ -23,8 +23,9 @@ public class MyCamera : MonoBehaviour {
 	private bool isGameInit = true;
 	
 	void Start () {
-		if(networkView.isMine != true)
-			enabled = false;
+//for later use
+		//if(networkView.isMine != true)
+		//	enabled = false;
 		
 		if(null==myHead)
 			myHead = transform.FindChild("Head");
